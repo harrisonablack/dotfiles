@@ -1,3 +1,5 @@
 [user]
 	email = dev+github@harrison.black
 	name = Harrison Black
+[pull]
+	rebase = true
