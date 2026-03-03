@@ -1,0 +1,11 @@
+[[session]]
+name = "home"
+path = "~"
+
+[[session]]
+name = "repos"
+path = "~/repos"
+
+[[session]]
+name = "dotfiles"
+path = "~/dotfiles"
