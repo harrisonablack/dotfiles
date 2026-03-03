@@ -1,0 +1,22 @@
+gui:
+  tabWidth: 2
+  mouseEvents: true
+  skipDiscardChangeWarning: true 
+  skipStashWarning: true 
+  skipNoStagedFilesWarning: true 
+  sidePanelWidth: 0.3
+
+  showNumstatInFilesView: true 
+  showCommandLog: false 
+  showBottomLine: false 
+  showPanelJumps: false 
+
+  nerdFontsVersion: "3"
+  showFileIcons: true
+  showDivergenceFromBaseBranch: arrowAndNumber 
+  splitDiff: always 
+  border: hidden 
+  filterMode: fuzzy 
+
+update:
+  method: background 
