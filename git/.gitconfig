@@ -1,0 +1,14 @@
+[gpg]
+	format = ssh
+[user]
+	signingkey = /Users/harrison/.ssh/id_ed25519_signing.pub
+	email = dev+github@harrison.black
+	name = Harrison Black
+	useConfigOnly = true
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
